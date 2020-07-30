@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04D362A1249D2C9A0009F863 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D362A0249D2C9A0009F863 /* AppDelegate.swift */; };
+		04D362A3249D2C9A0009F863 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D362A2249D2C9A0009F863 /* SceneDelegate.swift */; };
+		04D362A5249D2C9A0009F863 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D362A4249D2C9A0009F863 /* ContentView.swift */; };
+		04D362A7249D2C9D0009F863 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04D362A6249D2C9D0009F863 /* Assets.xcassets */; };
+		04D362AA249D2C9D0009F863 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04D362A9249D2C9D0009F863 /* Preview Assets.xcassets */; };
+		04D362AD249D2C9D0009F863 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04D362AB249D2C9D0009F863 /* LaunchScreen.storyboard */; };
+		04D362B8249D2C9E0009F863 /* SauloCardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D362B7249D2C9E0009F863 /* SauloCardTests.swift */; };
+		04D362C3249D2C9E0009F863 /* SauloCardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D362C2249D2C9E0009F863 /* SauloCardUITests.swift */; };
+		04D362D1249D37950009F863 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D362D0249D37950009F863 /* InfoView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04D362B4249D2C9E0009F863 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04D36295249D2C9A0009F863 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04D3629C249D2C9A0009F863;
+			remoteInfo = SauloCard;
+		};
+		04D362BF249D2C9E0009F863 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04D36295249D2C9A0009F863 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04D3629C249D2C9A0009F863;
+			remoteInfo = SauloCard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04D3629D249D2C9A0009F863 /* SauloCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SauloCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04D362A0249D2C9A0009F863 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04D362A2249D2C9A0009F863 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		04D362A4249D2C9A0009F863 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		04D362A6249D2C9D0009F863 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04D362A9249D2C9D0009F863 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		04D362AC249D2C9D0009F863 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04D362AE249D2C9D0009F863 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04D362B3249D2C9E0009F863 /* SauloCardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SauloCardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04D362B7249D2C9E0009F863 /* SauloCardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SauloCardTests.swift; sourceTree = "<group>"; };
+		04D362B9249D2C9E0009F863 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04D362BE249D2C9E0009F863 /* SauloCardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SauloCardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04D362C2249D2C9E0009F863 /* SauloCardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SauloCardUITests.swift; sourceTree = "<group>"; };
+		04D362C4249D2C9E0009F863 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04D362D0249D37950009F863 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04D3629A249D2C9A0009F863 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04D362B0249D2C9E0009F863 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04D362BB249D2C9E0009F863 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04D36294249D2C9A0009F863 = {
+			isa = PBXGroup;
+			children = (
+				04D3629F249D2C9A0009F863 /* SauloCard */,
+				04D362B6249D2C9E0009F863 /* SauloCardTests */,
+				04D362C1249D2C9E0009F863 /* SauloCardUITests */,
+				04D3629E249D2C9A0009F863 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04D3629E249D2C9A0009F863 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04D3629D249D2C9A0009F863 /* SauloCard.app */,
+				04D362B3249D2C9E0009F863 /* SauloCardTests.xctest */,
+				04D362BE249D2C9E0009F863 /* SauloCardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04D3629F249D2C9A0009F863 /* SauloCard */ = {
+			isa = PBXGroup;
+			children = (
+				04D362A0249D2C9A0009F863 /* AppDelegate.swift */,
+				04D362A2249D2C9A0009F863 /* SceneDelegate.swift */,
+				04D362A4249D2C9A0009F863 /* ContentView.swift */,
+				04D362D0249D37950009F863 /* InfoView.swift */,
+				04D362A6249D2C9D0009F863 /* Assets.xcassets */,
+				04D362AB249D2C9D0009F863 /* LaunchScreen.storyboard */,
+				04D362AE249D2C9D0009F863 /* Info.plist */,
+				04D362A8249D2C9D0009F863 /* Preview Content */,
+			);
+			path = SauloCard;
+			sourceTree = "<group>";
+		};
+		04D362A8249D2C9D0009F863 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				04D362A9249D2C9D0009F863 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		04D362B6249D2C9E0009F863 /* SauloCardTests */ = {
+			isa = PBXGroup;
+			children = (
+				04D362B7249D2C9E0009F863 /* SauloCardTests.swift */,
+				04D362B9249D2C9E0009F863 /* Info.plist */,
+			);
+			path = SauloCardTests;
+			sourceTree = "<group>";
+		};
+		04D362C1249D2C9E0009F863 /* SauloCardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04D362C2249D2C9E0009F863 /* SauloCardUITests.swift */,
+				04D362C4249D2C9E0009F863 /* Info.plist */,
+			);
+			path = SauloCardUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04D3629C249D2C9A0009F863 /* SauloCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04D362C7249D2C9E0009F863 /* Build configuration list for PBXNativeTarget "SauloCard" */;
+			buildPhases = (
+				04D36299249D2C9A0009F863 /* Sources */,
+				04D3629A249D2C9A0009F863 /* Frameworks */,
+				04D3629B249D2C9A0009F863 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SauloCard;
+			productName = SauloCard;
+			productReference = 04D3629D249D2C9A0009F863 /* SauloCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04D362B2249D2C9E0009F863 /* SauloCardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04D362CA249D2C9E0009F863 /* Build configuration list for PBXNativeTarget "SauloCardTests" */;
+			buildPhases = (
+				04D362AF249D2C9E0009F863 /* Sources */,
+				04D362B0249D2C9E0009F863 /* Frameworks */,
+				04D362B1249D2C9E0009F863 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04D362B5249D2C9E0009F863 /* PBXTargetDependency */,
+			);
+			name = SauloCardTests;
+			productName = SauloCardTests;
+			productReference = 04D362B3249D2C9E0009F863 /* SauloCardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04D362BD249D2C9E0009F863 /* SauloCardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04D362CD249D2C9E0009F863 /* Build configuration list for PBXNativeTarget "SauloCardUITests" */;
+			buildPhases = (
+				04D362BA249D2C9E0009F863 /* Sources */,
+				04D362BB249D2C9E0009F863 /* Frameworks */,
+				04D362BC249D2C9E0009F863 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04D362C0249D2C9E0009F863 /* PBXTargetDependency */,
+			);
+			name = SauloCardUITests;
+			productName = SauloCardUITests;
+			productReference = 04D362BE249D2C9E0009F863 /* SauloCardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04D36295249D2C9A0009F863 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Saulo Freire";
+				TargetAttributes = {
+					04D3629C249D2C9A0009F863 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					04D362B2249D2C9E0009F863 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 04D3629C249D2C9A0009F863;
+					};
+					04D362BD249D2C9E0009F863 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 04D3629C249D2C9A0009F863;
+					};
+				};
+			};
+			buildConfigurationList = 04D36298249D2C9A0009F863 /* Build configuration list for PBXProject "SauloCard" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04D36294249D2C9A0009F863;
+			productRefGroup = 04D3629E249D2C9A0009F863 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04D3629C249D2C9A0009F863 /* SauloCard */,
+				04D362B2249D2C9E0009F863 /* SauloCardTests */,
+				04D362BD249D2C9E0009F863 /* SauloCardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04D3629B249D2C9A0009F863 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04D362AD249D2C9D0009F863 /* LaunchScreen.storyboard in Resources */,
+				04D362AA249D2C9D0009F863 /* Preview Assets.xcassets in Resources */,
+				04D362A7249D2C9D0009F863 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04D362B1249D2C9E0009F863 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04D362BC249D2C9E0009F863 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04D36299249D2C9A0009F863 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04D362D1249D37950009F863 /* InfoView.swift in Sources */,
+				04D362A1249D2C9A0009F863 /* AppDelegate.swift in Sources */,
+				04D362A3249D2C9A0009F863 /* SceneDelegate.swift in Sources */,
+				04D362A5249D2C9A0009F863 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04D362AF249D2C9E0009F863 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04D362B8249D2C9E0009F863 /* SauloCardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04D362BA249D2C9E0009F863 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04D362C3249D2C9E0009F863 /* SauloCardUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04D362B5249D2C9E0009F863 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04D3629C249D2C9A0009F863 /* SauloCard */;
+			targetProxy = 04D362B4249D2C9E0009F863 /* PBXContainerItemProxy */;
+		};
+		04D362C0249D2C9E0009F863 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04D3629C249D2C9A0009F863 /* SauloCard */;
+			targetProxy = 04D362BF249D2C9E0009F863 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04D362AB249D2C9D0009F863 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04D362AC249D2C9D0009F863 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04D362C5249D2C9E0009F863 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04D362C6249D2C9E0009F863 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04D362C8249D2C9E0009F863 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SauloCard/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SauloCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = work.freire.saulo.SauloCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04D362C9249D2C9E0009F863 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SauloCard/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SauloCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = work.freire.saulo.SauloCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		04D362CB249D2C9E0009F863 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SauloCardTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = work.freire.saulo.SauloCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SauloCard.app/SauloCard";
+			};
+			name = Debug;
+		};
+		04D362CC249D2C9E0009F863 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SauloCardTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = work.freire.saulo.SauloCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SauloCard.app/SauloCard";
+			};
+			name = Release;
+		};
+		04D362CE249D2C9E0009F863 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SauloCardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = work.freire.saulo.SauloCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SauloCard;
+			};
+			name = Debug;
+		};
+		04D362CF249D2C9E0009F863 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SauloCardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = work.freire.saulo.SauloCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SauloCard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04D36298249D2C9A0009F863 /* Build configuration list for PBXProject "SauloCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04D362C5249D2C9E0009F863 /* Debug */,
+				04D362C6249D2C9E0009F863 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04D362C7249D2C9E0009F863 /* Build configuration list for PBXNativeTarget "SauloCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04D362C8249D2C9E0009F863 /* Debug */,
+				04D362C9249D2C9E0009F863 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04D362CA249D2C9E0009F863 /* Build configuration list for PBXNativeTarget "SauloCardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04D362CB249D2C9E0009F863 /* Debug */,
+				04D362CC249D2C9E0009F863 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04D362CD249D2C9E0009F863 /* Build configuration list for PBXNativeTarget "SauloCardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04D362CE249D2C9E0009F863 /* Debug */,
+				04D362CF249D2C9E0009F863 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04D36295249D2C9A0009F863 /* Project object */;
+}
